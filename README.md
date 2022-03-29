@@ -4,6 +4,6 @@
 - Learn different candle sticks
 - name the candle stick game
 - predict the next move candle stick game
-- leaderboard [ Optional ]
+- leaderboard 
 - User Id for storing learning progress [ Optional ]
 
