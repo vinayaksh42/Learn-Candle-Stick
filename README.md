@@ -1,4 +1,6 @@
 # Learn-Candle-Stick
+- Project Lead - Vinayak Sharma
+
 
 ### Pages to make
 - Learn different candle sticks
