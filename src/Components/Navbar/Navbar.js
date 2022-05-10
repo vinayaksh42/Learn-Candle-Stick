@@ -10,11 +10,6 @@ import "./Navbar.css";
 const pages = ['Home', 'About'];
 
 const ResponsiveAppBar = () => {
-  const [anchorElNav, setAnchorElNav] = React.useState(null);
-
-  const handleCloseNavMenu = () => {
-    setAnchorElNav(null);
-  };
 
   return (
     <AppBar position="static">
@@ -26,7 +21,6 @@ const ResponsiveAppBar = () => {
               <Button
                 id={"navbutton"+index}
                 key={page}
-                onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
