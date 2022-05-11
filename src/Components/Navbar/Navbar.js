@@ -9,6 +9,9 @@ import "./Navbar.css";
 
 const pages = ['Home', 'About'];
 
+const ResponsiveAppBar = () => {
+
+
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -19,6 +22,7 @@ const pages = ['Home', 'About'];
               <Button
                 id={"navbutton"+index}
                 key={page}
+                onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}
