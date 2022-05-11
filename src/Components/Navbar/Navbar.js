@@ -11,7 +11,6 @@ const pages = ['Home', 'About'];
 
 const ResponsiveAppBar = () => {
 
-
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -22,7 +21,6 @@ const ResponsiveAppBar = () => {
               <Button
                 id={"navbutton"+index}
                 key={page}
-                onClick={handleCloseNavMenu}
                 sx={{ my: 2, color: 'white', display: 'block' }}
               >
                 {page}

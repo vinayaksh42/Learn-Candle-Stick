@@ -3,6 +3,8 @@ import About from './Pages/About';
 import { Routes, Route } from "react-router-dom";
 import Navbar from './Components/Navbar/Navbar';
 import './App.css';
+import React from 'react';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="about" element={<About />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }
