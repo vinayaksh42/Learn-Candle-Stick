@@ -1,9 +1,10 @@
 import React from "react";
+import About1 from '../Components/About1/About1';
 
 function About() {
     return (
         <>
-        <h1>About</h1>
+        <About1 />
         </>
     );
 }
