@@ -1,104 +1,151 @@
 import * as React from 'react';
-import AppBar from '@mui/material/AppBar';
-import Button from '@mui/material/Button';
-import CameraIcon from '@mui/icons-material/PhotoCamera';
+import { styled } from '@mui/material/styles';
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Grid';
+import Typography from '@mui/material/Typography';
+import { typography } from '@mui/system';
+import Avatar from '@mui/material/Avatar';
+import Stack from '@mui/material/Stack';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import CssBaseline from '@mui/material/CssBaseline';
-import Grid from '@mui/material/Grid';
-import Stack from '@mui/material/Stack';
-import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import Typography from '@mui/material/Typography';
-import Container from '@mui/material/Container';
-import Link from '@mui/material/Link';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import Button from '@mui/material/Button';
+import { red } from '@mui/material/colors';
+import { CardHeader } from '@mui/material';
 
-function Copyright() {
+
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'centre',
+  color: theme.palette.text.secondary,
+}));
+
+
+export default function ColumnsGrid() {
   return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://mui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
+    <>  <Typography>
+     <h1>
+       Candle Sticks Project
+           </h1>
+           <h4>
+             <p>
+               Here you will learn about Different Candle sticks which is used in stock Market
+               and Crypto market<br></br>After Attending all the quizes you will be able to predict the behaviour 
+               of these candles and earn money.<br></br>
 
-const cards = [1, 2, 3, 4];
+             </p>
+           </h4>
+      </Typography>
+      <Grid container spacing={2} columns={32}>
+        <Grid item xs={8}>
 
-const theme = createTheme();
+    <Card sx={{ minWidth: 200 }}>
+      <CardContent>
+     {
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+            VS
+          </Avatar>}
 
-export default function Album() {
-  return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <AppBar position="relative">
-      </AppBar>
-      <main>
-        {/* Hero unit */}
-        <Box
-          sx={{
-            bgcolor: 'background.paper',
-            pt: 8,
-            pb: 6,
-          }}
-        >
-          <Container maxWidth="sm">
-            <Typography
-              component="h1"
-              variant="h2"
-              align="center"
-              color="text.primary"
-              gutterBottom
-            >
-              Learn Candle Stick
-            </Typography>
-            <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              Here you will Learn about different Candle sticks in stock market.
-              Also you will be able to predict the behaviour of candle sticks.
+        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+         Vinayak Sharma
+        </Typography>
+        <Typography variant="h5" component="div">
+          Project Head
+        </Typography>
+        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          Gsoc 
+        </Typography>
+        <Typography variant="body2">
+         Helpful and Intelligent
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">contact</Button>
+      </CardActions>
+    </Card>
+        </Grid>
+        <Grid item xs={8}>
+        <Card sx={{ minWidth: 200 }}>
+      <CardContent>
+     {
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+            PS
+          </Avatar>}
 
-            </Typography>
-           
-          </Container>
-        </Box>
-        <Container sx={{ py: 8 }} maxWidth="md">
-          {/* End hero unit */}
-          <Grid container spacing={4}>
-            {cards.map((card) => (
-              <Grid item key={card} xs={12} sm={2} md={3}>
-                <Card
-                  sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
-                >
-                  <CardMedia
-                    component="img"
-                    sx={{
-                      // 16:9
-                      pt: '56.25%',
-                    }}
-                    image="www.unsplash.com/random"
-                    alt="card"
-                  />
-                  <CardContent sx={{ flexGrow: 1 }}>
-                    <Typography gutterBottom variant="h5" component="h2">
-                      Heading
-                    </Typography>
-                    <Typography>
-                      This is a media card. You can use this section to describe the
-                      content.
-                    </Typography>
-                  </CardContent>
-                </Card>
-              </Grid>
-            ))}
-          </Grid>
-        </Container>
-      </main>
-      
-    </ThemeProvider>
+        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+         Priyanshu Sharma
+        </Typography>
+        <Typography variant="h5" component="div">
+           Team member
+        </Typography>
+        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          Anime Lover
+        </Typography>
+        <Typography variant="body2">
+        Honest and Hard Working
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">contact</Button>
+      </CardActions>
+    </Card>
+        </Grid>
+        <Grid item xs={8}>
+        <Card sx={{ minWidth: 200 }}>
+      <CardContent>
+     {
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+            HC
+          </Avatar>}
+
+        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+       Harsh Chaudhary
+        </Typography>
+        <Typography variant="h5" component="div">
+         Team member
+        </Typography>
+        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          Cricket Lover 
+        </Typography>
+        <Typography variant="body2">
+        Sincere and Obidient
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">contact</Button>
+      </CardActions>
+    </Card>
+        </Grid>
+        <Grid item xs={8}>
+        <Card sx={{ minWidth: 200 }}>
+      <CardContent>
+     {
+          <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
+            SVS
+          </Avatar>}
+
+        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+        Siddhant Vardhan Singh
+        </Typography>
+        <Typography variant="h5" component="div">
+          Star Member
+        </Typography>
+        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          IIT jammu Intern 
+        </Typography>
+        <Typography variant="body2">
+         Helpful and Kind
+                 </Typography>
+      </CardContent>
+      <CardActions>
+        <Button size="small">contact</Button>
+      </CardActions>
+    </Card>
+        </Grid>
+      </Grid>
+    </>
   );
 }
