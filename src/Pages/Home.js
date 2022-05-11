@@ -1,11 +1,13 @@
 import React from "react";
-
+import HomeHeader from "../Components/HomeHeader/HomeHeader";
 function Home() {
-    return (
-      <>
-        <h1>Home</h1>
-      </>
-    );
+  return (
+
+
+    <> 
+     <HomeHeader />
+    </>
+  );
 }
 
 export default Home;
