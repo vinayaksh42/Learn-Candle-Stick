@@ -5,17 +5,14 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import "./HomeHeader"
-
-
-
-
+import './HomeHeader.css';
 
 export default function ColumnsGrid () {
   return (
 
-    
   <>
+  
+  <div className='cardContainer'>
   <h1 align='left' style={{padding:"20px"}}>
     Candel Stick
   </h1>
@@ -94,6 +91,7 @@ export default function ColumnsGrid () {
     </Card>
         </Grid>
       </Grid>
+      </div>
 </>     
   );
 }

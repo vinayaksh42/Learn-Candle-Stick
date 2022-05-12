@@ -7,6 +7,7 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import { red } from '@mui/material/colors';
+import '../HomeHeader/HomeHeader.css';
 
 
 export default function ColumnsGrid() {
@@ -24,6 +25,7 @@ export default function ColumnsGrid() {
              </p>
            </h4>
       </Typography>
+      <div className='cardContainer'>
       <Grid container spacing={2} columns={32}>
         <Grid item xs={8}>
 
@@ -34,7 +36,7 @@ export default function ColumnsGrid() {
             VS
           </Avatar>}
 
-        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+        <Typography sx={{ fontSize: 20}} color="text.secondary" gutterBottom>
          Vinayak Sharma
         </Typography>
         <Typography variant="h5" component="div">
@@ -60,7 +62,7 @@ export default function ColumnsGrid() {
             PS
           </Avatar>}
 
-        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+        <Typography sx={{ fontSize: 20}} color="text.secondary" gutterBottom>
          Priyanshu Sharma
         </Typography>
         <Typography variant="h5" component="div">
@@ -86,7 +88,7 @@ export default function ColumnsGrid() {
             HC
           </Avatar>}
 
-        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+        <Typography sx={{ fontSize: 20}} color="text.secondary" gutterBottom>
        Harsh Chaudhary
         </Typography>
         <Typography variant="h5" component="div">
@@ -112,7 +114,7 @@ export default function ColumnsGrid() {
             SVS
           </Avatar>}
 
-        <Typography sx={{ fontSize: 30}} color="text.secondary" gutterBottom>
+        <Typography sx={{ fontSize: 20}} color="text.secondary" gutterBottom>
         Siddhant Vardhan Singh
         </Typography>
         <Typography variant="h5" component="div">
@@ -131,6 +133,7 @@ export default function ColumnsGrid() {
     </Card>
         </Grid>
       </Grid>
+      </div>
     </>
   );
 }
