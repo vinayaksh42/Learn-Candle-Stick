@@ -5,6 +5,7 @@ export default function App() {
 	const questions = [
 		{
 			questionText: 'What is the capital of France?',
+			image: 'france.png',
 			answerOptions: [
 				{ answerText: 'New York', isCorrect: false },
 				{ answerText: 'London', isCorrect: false },
@@ -14,6 +15,7 @@ export default function App() {
 		},
 		{
 			questionText: 'Who is CEO of Tesla?',
+			image: 'tesla.png',
 			answerOptions: [
 				{ answerText: 'Jeff Bezos', isCorrect: false },
 				{ answerText: 'Elon Musk', isCorrect: true },
@@ -23,6 +25,7 @@ export default function App() {
 		},
 		{
 			questionText: 'The iPhone was created by which company?',
+			image: 'apple.png',
 			answerOptions: [
 				{ answerText: 'Apple', isCorrect: true },
 				{ answerText: 'Intel', isCorrect: false },
@@ -32,6 +35,7 @@ export default function App() {
 		},
 		{
 			questionText: 'How many Harry Potter books are there?',
+			image: 'harry_potter.png',
 			answerOptions: [
 				{ answerText: '1', isCorrect: false },
 				{ answerText: '4', isCorrect: false },
@@ -70,6 +74,9 @@ export default function App() {
 							<span>Question {currentQuestion + 1}</span>/{questions.length}
 						</div>
 						<div className='question-text'>{questions[currentQuestion].questionText}</div>
+					</div>
+					<div className='image-section'>
+						<div className='image'><img alt='' src={questions[currentQuestion].image}/></div>
 					</div>
 					<div className='answer-section'>
 						{questions[currentQuestion].answerOptions.map((answerOption) => (
