@@ -5,17 +5,17 @@
     border: 4px solid black;
 }
 
-.social-container {
+.sociala-container {
     margin: 0px auto;
 }
 
-a.social {
+a.sociala {
     transition: transform 250ms;
     display: inline-block;
     padding: 3px;
 }
 
-a.social:hover {
+a.sociala:hover {
     transform: translateY(-2px);
 }
 a.github {

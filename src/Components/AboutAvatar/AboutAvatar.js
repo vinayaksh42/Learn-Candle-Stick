@@ -6,8 +6,9 @@ import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import '../HomeHeader/HomeHeader.css';
 import './AboutAvatar.css';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTwitter, faLinkedinIn, faGithub} from "@fortawesome/free-brands-svg-icons";
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 export default function ColumnsGrid() {
   return (
     <>
@@ -35,18 +36,18 @@ export default function ColumnsGrid() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <div class="social-container">
+                <div class="sociala-container">
                 
-                  <a href="https://github.com/vinayaksh42"
-                    className="github social">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                  <a href="https://github.com/vinayaksh42" target="_blank"
+                    className="github sociala">
+                    <GitHubIcon fontSize='large'/>
                   </a>
-                  <a href="https://twitter.com/Vinayak47427793" className="twitter social">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                  <a href="https://twitter.com/Vinayak47427793" target="_blank" className="twitter sociala">
+                    <TwitterIcon fontSize='large'/>
                   </a>
-                  <a href="https://www.linkedin.com/in/vinayak-sharma-141096193/"
-                    className="linkedin social">
-                    <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                  <a href="https://www.linkedin.com/in/vinayak-sharma-141096193/" target="_blank"
+                    className="linkedin sociala">
+                    <LinkedInIcon fontSize='large'/>
                   </a>
                 </div>
               </CardActions>
@@ -63,17 +64,17 @@ export default function ColumnsGrid() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <div class="social-container">
-                  <a href="https://github.com/Priyanshu2601"
-                    className="github social">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                <div class="sociala-container">
+                  <a href="https://github.com/Priyanshu2601" target="_blank"
+                    className="github sociala">
+                    <GitHubIcon fontSize='large'/>
                   </a>
-                  <a href="https://twitter.com/Priyanshu995840" className="twitter social">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                  <a href="https://twitter.com/Priyanshu995840" target="_blank" className="twitter sociala">
+                  <TwitterIcon fontSize='large'/>
                   </a>
-                  <a href="https://www.linkedin.com/in/priyanshu-sharma-722760197/"
-                    className="linkedin social">
-                    <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                  <a href="https://www.linkedin.com/in/priyanshu-sharma-722760197/" target="_blank"
+                    className="linkedin sociala">
+                  <LinkedInIcon fontSize='large'/>
                   </a>
                 </div>
               </CardActions>
@@ -90,17 +91,18 @@ export default function ColumnsGrid() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <div class="social-container">
-                  <a href="https://github.com/mrharsh0606"
-                    className="github social">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                <div class="sociala-container">
+                  <a href="https://github.com/mrharsh0606" target="_blank"
+                    className="github sociala">
+                    <GitHubIcon fontSize='large'/>
                   </a>
-                  <a href="https://twitter.com/mrharsh06" className="twitter social">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                  <a href="https://twitter.com/mrharsh06" target="_blank" className="twitter sociala">
+                  <TwitterIcon fontSize='large'/>
                   </a>
-                  <a href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/"
-                    className="linkedin social">
-                    <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                  <a href="https://www.linkedin.com/in/harsh-chaudhary-563b47199/" target="_blank"
+                    className="linkedin sociala">
+                    <LinkedInIcon fontSize='large'/>
+    
                   </a>
                 </div>
               </CardActions>
@@ -117,17 +119,17 @@ export default function ColumnsGrid() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <div class="social-container">
-                  <a href="https://github.com/Siddhant-vardhansingh"
-                    className="github social">
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                <div class="sociala-container">
+                  <a href="https://github.com/Siddhant-vardhansingh" target="_blank"
+                    className="github sociala">
+                    <GitHubIcon fontSize='large'/>
                   </a>
-                  <a href="https://twitter.com/SiddhantVardha1" className="twitter social">
-                    <FontAwesomeIcon icon={faTwitter} size="2x" />
+                  <a href="https://twitter.com/SiddhantVardha1" target="_blank" className="twitter sociala">
+                  <TwitterIcon fontSize='large'/>
                   </a>
-                  <a href="https://www.linkedin.com/in/siddhant-vardhan-singh/"
-                    className="linkedin social">
-                    <FontAwesomeIcon icon={faLinkedinIn} size="2x" />
+                  <a href="https://www.linkedin.com/in/siddhant-vardhan-singh/" target="_blank"
+                    className="linkedin sociala">
+                   <LinkedInIcon fontSize='large'/>
                   </a>
                 </div>
               </CardActions>

@@ -1,13 +1,9 @@
 import React from "react";
 import Grid from '@mui/material/Grid';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faYoutube,
-  faGithub,
-  faTwitter,
-  faSlack,
-  faInstagram
-} from "@fortawesome/free-brands-svg-icons";
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import InstagramIcon from '@mui/icons-material/Instagram';
 import "./Footer.css";
 
 
@@ -67,24 +63,20 @@ function Footer() {
           </p>
         </div>
         <div class="social-container" >
-        <a href="https://www.youtube.com/c/jamesqquick"
+        <a href="https://www.youtube.com/c/jamesqquick" target="_blank"
         className="youtube social">
-        <FontAwesomeIcon icon={faYoutube} size="2x" />
+          <YouTubeIcon fontSize="large"/>
       </a>
-      <a href="https://www.facebook.com/learnbuildteach/"
+      <a href="https://www.facebook.com/learnbuildteach/" target="_blank"
         className="facebook social">
-        <FontAwesomeIcon icon={faGithub} size="2x" />
+        <GitHubIcon fontSize="large"/>
       </a>
-      <a href="https://www.twitter.com/jamesqquick" className="twitter social">
-        <FontAwesomeIcon icon={faTwitter} size="2x" />
+      <a href="https://www.twitter.com/jamesqquick" target="_blank" className="twitter social">
+        <TwitterIcon fontSize="large"/>
       </a>
-      <a href="https://www.instagram.com/learnbuildteach"
+      <a href="https://www.instagram.com/learnbuildteach" target="_blank"
         className="instagram social">
-        <FontAwesomeIcon icon={faInstagram} size="2x" />
-      </a>
-      <a href="https://www.instagram.com/learnbuildteach"
-        className="slack social">
-        <FontAwesomeIcon icon={faSlack} size="2x" />
+        <InstagramIcon fontSize="large" />
       </a>
         </div>
 </div>
