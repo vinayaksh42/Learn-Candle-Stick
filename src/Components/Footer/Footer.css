@@ -1,0 +1,50 @@
+.main-footer {
+    color: white;
+    background-color: black;
+  }
+
+  .Footer-links{
+      list-style: none;
+      text-align: left;
+      
+
+  }
+  .copyright{
+      text-align: left;
+      margin: 0px 20px 0px 20px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.social-container {
+    background: black;
+    margin: 0px 10px 0px 400px;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+
+  a.youtube {
+    color: #eb3223;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: pink;
+  }
+  a.slack{
+      color:purple
+  }
+  a.facebook {
+    color: #4968ad;
+  }
+  
