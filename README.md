@@ -34,6 +34,9 @@ https://getnighthawk.dev
 ## Footer
 ![image](https://user-images.githubusercontent.com/54861487/168146090-7c79013f-b4f5-4768-a3c8-28f225b238d8.png)
 
+## Resource for candlestick
+https://www.elearnmarkets.com/blog/35-candlestick-patterns-in-stock-market/#4-the-morning-star
+
 ## Quiz format
 ![image](https://user-images.githubusercontent.com/54861487/168466500-9db70dd0-b8cd-41c7-b765-41b54651955f.png)
 
