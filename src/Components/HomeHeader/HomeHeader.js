@@ -11,7 +11,6 @@ export default function ColumnsGrid () {
   return (
 
   <>
-  
   <div className='cardContainer'>
   <h1 align='left' style={{padding:"20px"}}>
     Candel Stick
