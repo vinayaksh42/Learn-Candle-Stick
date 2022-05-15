@@ -40,3 +40,5 @@ https://www.elearnmarkets.com/blog/35-candlestick-patterns-in-stock-market/#4-th
 ## Quiz format
 ![image](https://user-images.githubusercontent.com/54861487/168466500-9db70dd0-b8cd-41c7-b765-41b54651955f.png)
 
+## leaderboard UI
+https://dribbble.com/shots/7727231-Leaderboard
