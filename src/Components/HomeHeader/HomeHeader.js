@@ -20,8 +20,9 @@ export default function ColumnsGrid () {
   direction="row"
   justify="centre"
 >
-        <Grid item xs={4} md={4} sm={4}>
-          <Card xs={{ minWidth: 120 }}>
+          
+        <Grid item xs={12} md={4} sm={6}>
+          <Card xs={{ minWidth: 120 }} className="card1">
       <CardContent>
         <Typography xs={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Word of the Day
@@ -43,8 +44,8 @@ export default function ColumnsGrid () {
       </CardActions>
     </Card>
         </Grid>
-        <Grid item xs={4} md={4} sm={4}>
-        <Card xs={{ minWidth: 120 }}>
+        <Grid item xs={12} md={4} sm={6}>
+        <Card xs={{ minWidth: 120 }} className="card2">
       <CardContent>
         <Typography xs={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Word of the Day
@@ -66,8 +67,8 @@ export default function ColumnsGrid () {
       </CardActions>
     </Card>
         </Grid>
-        <Grid item xs={4} md={4} sm={4}>
-        <Card xs={{ minWidth: 120 }}>
+        <Grid item xs={12} md={4} sm={6}>
+        <Card xs={{ minWidth: 120 }} className="card3">
       <CardContent>
         <Typography xs={{ fontSize: 14 }} color="text.secondary" gutterBottom>
           Word of the Day
@@ -88,7 +89,7 @@ export default function ColumnsGrid () {
         <Button size="small">Learn More</Button>
       </CardActions>
     </Card>
-        </Grid>
+        </Grid>  
       </Grid>
       </div>
 </>     

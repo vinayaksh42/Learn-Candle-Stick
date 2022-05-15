@@ -1,4 +1,21 @@
 .cardContainer {
-    padding: 80px;
+    padding: 40px 80px;
     height: 500px;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+
+}
+.card2:hover{
+    transform: scale(1.05);
+
+}
+.card3:hover{
+    transform: scale(1.05);
+
+}
+.card4:hover{
+    transform: scale(1.05);
+
 }
