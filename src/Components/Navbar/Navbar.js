@@ -7,7 +7,7 @@ import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const pages = ['Home', 'About', 'Quiz'];
+const pages = ['Home', 'About', 'Quiz', 'Learn'];
 
 const ResponsiveAppBar = () => {
 

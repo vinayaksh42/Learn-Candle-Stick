@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar/Navbar';
 import './App.css';
 import React from 'react';
 import Footer from './Components/Footer/Footer';
+import Learn from './Pages/Learn';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="Quiz" element={<Quiz/>}/>
+        <Route path="Learn" element={<Learn/>}/>
       </Routes>
       <Footer/>
     </div>
