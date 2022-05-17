@@ -8,7 +8,6 @@ import React from 'react';
 import Footer from './Components/Footer/Footer';
 import Learn from './Pages/Learn_Module';
 
-
 function App() {
   return (
     <div className="App">
