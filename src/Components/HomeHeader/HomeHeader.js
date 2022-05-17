@@ -92,6 +92,7 @@ export default function ColumnsGrid () {
         </Grid>  
       </Grid>
       </div>
-</>     
-  );
+
+</>    
+  ); 
 }

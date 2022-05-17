@@ -29,7 +29,7 @@ export default function ColumnsGrid() {
 
             <Card sx={{ minWidth: 180 }} className="card1">
               <CardContent>
-                <img id="profile" src="1.png" alt="profile" width={200} height={200} />
+                <img id="aboutprofile" src="1.png" alt="profile" width={200} height={200} />
                 <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
                   Vinayak<br />
                   Sharma
@@ -57,7 +57,7 @@ export default function ColumnsGrid() {
             <Card sx={{ minWidth: 180 }} className="card2">
               <CardContent>
                 {
-                  <img id="profile" src="3.png" alt="profile" width={200} height={200} />}
+                  <img id="aboutprofile" src="3.png" alt="profile" width={200} height={200} />}
 
                 <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
                   Priyanshu<br /> Sharma
@@ -84,7 +84,7 @@ export default function ColumnsGrid() {
             <Card sx={{ minWidth: 180 }} className="card3">
               <CardContent>
                 {
-                  <img id="profile" src="2.png" alt="profile" width={200} height={200} />}
+                  <img id="aboutprofile" src="2.png" alt="profile" width={200} height={200} />}
 
                 <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
                   Harsh<br /> Chaudhary
@@ -112,7 +112,7 @@ export default function ColumnsGrid() {
             <Card sx={{ minWidth: 180 }} className="card4">
               <CardContent>
                 {
-                  <img id="profile" src="4.png" alt="profile" width={200} height={200} />}
+                  <img id="aboutprofile" src="4.png" alt="profile" width={200} height={200} />}
 
                 <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
                   Siddhant<br /> Vardhan Singh
