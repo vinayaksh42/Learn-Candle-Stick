@@ -82,6 +82,7 @@ export default function BasicTabs() {
                             <LeaderSlot key={index} image={leader.image} score={leader.score} name={leader.name} />
                         )
                     })
+                    
                 }
                 
             </TabPanel>

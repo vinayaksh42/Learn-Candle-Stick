@@ -7,9 +7,10 @@ import './App.css';
 import React from 'react';
 import Footer from './Components/Footer/Footer';
 import Learn from './Pages/Learn';
-import LearnModule from './Pages/Learn_Module';
+import Routing1 from './Pages/route1';
 
-function App() {
+
+function App(data){ 
   return (
     <div className="App">
       <Navbar />
@@ -19,7 +20,7 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="Quiz" element={<Quiz/>}/>
         <Route path="Learn" element={<Learn/>}/>
-        <Route path="LearnModule" element={<LearnModule/>}/>
+        <Route path='learn/:id' element={<Routing1/>}/>
       </Routes>
       <Footer/>
     </div>

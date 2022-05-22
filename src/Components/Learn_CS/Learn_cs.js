@@ -98,8 +98,8 @@ function Module() {
                     </AccordionSummary>
                     <AccordionDetails>
                         <ul className='learnList__item'>
-                            <li><Link to="/LearnModule">{item.quiz}</Link></li>
-                            <li><Link to="/LearnModule">{item.lm}</Link></li>
+                            <li><Link to={`/quiz/${item.id}`}>{item.quiz}</Link></li>
+                            <li><Link to={`/learn/${item.id}`}>{item.lm}</Link></li>
                         </ul>
                     </AccordionDetails>
                 </Accordion>
