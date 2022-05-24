@@ -42,3 +42,6 @@ https://www.elearnmarkets.com/blog/35-candlestick-patterns-in-stock-market/#4-th
 
 ## leaderboard UI
 https://dribbble.com/shots/7727231-Leaderboard
+
+## Figma UI
+https://www.figma.com/file/xWpy47quWbwboUiJafSka6/learnncandlestick?node-id=1%3A2
