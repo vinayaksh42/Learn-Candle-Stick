@@ -1,8 +1,12 @@
 .main-footer {
     color: white;
-    background-color: black;
+    background-color: #222222;
   }
-
+  
+  .list-items{
+    color: rgba(255, 255, 255, 0.75);
+    margin: ;
+  }
   .Footer-links{
       list-style: none;
       text-align: left;
@@ -11,18 +15,31 @@
   }
   .copyright{
       text-align: left;
-      margin: 0px 20px 0px 20px;
-  }
+      color:#FFFFFF;
+      margin-left: 2%;
+      
+      font-family: 'Roboto';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 23px;
+      letter-spacing: 0.005em;
+      
+    }
 
   .grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
 
+.learnstick-whitelogo{
+margin-right: 50%;
+
+}
+
 .social-container {
-    background: black;
-    margin: 0px 10px 0px 400px;
+    background: #222222;
+    
   }
   a.social {
     margin: 0 1rem;
