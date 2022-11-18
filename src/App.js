@@ -8,6 +8,7 @@ import React from 'react';
 import Footer from './Components/Footer/Footer';
 import Learn from './Pages/Learn';
 import Routing1 from './Pages/route1';
+import Register from './Pages/Register';
 
 
 function App(data){ 
@@ -21,6 +22,7 @@ function App(data){
         <Route path="Quiz" element={<Quiz/>}/>
         <Route path="Learn" element={<Learn/>}/>
         <Route path='learn/:id' element={<Routing1/>}/>
+        <Route path="register" element={<Register/>}/>
       </Routes>
       <Footer/>
     </div>

@@ -12,7 +12,7 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const pages = ["Home","Learn","Quiz","About"];
+const pages = ["Home","Learn","Quiz","About","register"];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
