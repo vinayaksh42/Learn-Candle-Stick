@@ -6,10 +6,11 @@ import { useState } from 'react'
 const RegisterContainer = () => {
 
     const [userRegistration, setuserRegistration] = useState({
-        username: "",
-        email: "",
-        phone: "",
-        password: ""
+        name: "",
+        age: "",
+        Gender: "",
+        Email: "",
+        password:""
     });
     const [records, setRecords] = useState([])
     const handleInput = (e) => {
@@ -27,37 +28,45 @@ const RegisterContainer = () => {
         console.log(records);
         setRecords([...records, newRecord]);
         console.log(records);
-        setuserRegistration({ username:"", email:"", phone:"",password:""})
+        setuserRegistration({ name:"", age:"", Gender:"", Email:"", password:""})
     }
     return (
         <>
             <form action="" onSubmit={handleSubmit}>
                 <div>
-                    <label htmlFor='username'>Fullname</label>
+                    <label htmlFor='name'>Full name</label>
                     <input type="text"
-                        value={userRegistration.username}
+                        value={userRegistration.name}
                         onChange={handleInput}
-                        name="username" id="username" />
+                        name="name" id="name" />
                 </div>
 
                 <div>
-                    <label htmlFor='email'>email</label>
+                    <label htmlFor='age'>age</label>
                     <input type="text"
-                        value={userRegistration.email}
+                        value={userRegistration.age}
                         onChange={handleInput}
-                        name="email" id="email" />
+                        name="age" id="age" />
                 </div>
 
                 <div>
-                    <label htmlFor='phone'>Phone</label>
+                    <label htmlFor='Gender'>Gender</label>
                     <input type="text"
-                        value={userRegistration.phone}
+                        value={userRegistration.Gender}
                         onChange={handleInput}
-                        name="phone" id="phone" />
+                        name="Gender" id="Gender" />
                 </div>
 
                 <div>
-                    <label htmlFor='password'>Password</label>
+                    <label htmlFor='Email'>Email</label>
+                    <input type="text"
+                        value={userRegistration.Email}
+                        onChange={handleInput}
+                        name="Email" id="Email" />
+                </div>
+
+                <div>
+                    <label htmlFor='password'>password</label>
                     <input type="text"
                         value={userRegistration.password}
                         onChange={handleInput}
@@ -72,9 +81,10 @@ const RegisterContainer = () => {
                     records.map((curElem) => {
                         return (
                             <div className='showDataStyle' key={curElem.id}>
-                                <p>{curElem.username}</p>
-                                <p>{curElem.email}</p>
-                                <p>{curElem.phone}</p>
+                                <p>{curElem.name}</p>
+                                <p>{curElem.age}</p>
+                                <p>{curElem.Gender}</p>
+                                <p>{curElem.Email}</p>
                                 <p>{curElem.password}</p>
                             </div>
                         )
