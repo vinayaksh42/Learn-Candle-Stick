@@ -13,7 +13,7 @@ export default function ColumnsGrid () {
   <>
   <div className='cardContainer'>
   <h1 align='left' style={{padding:"20px"}}>
-    Candel Stick
+    Candle Stick
   </h1>
   <Grid
   container spacing={2}

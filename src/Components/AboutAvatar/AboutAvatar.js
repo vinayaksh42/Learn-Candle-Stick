@@ -24,7 +24,7 @@ export default function ColumnsGrid() {
         </p>
       </h4>
       <div className='cardContainer'>
-        <Grid container spacing={2} columns={32} >
+        <Grid container spacing={2} columns={40} >
           <Grid item xs={32} md={8} sm={16}>
 
             <Card sx={{ minWidth: 180 }} className="card1">
@@ -128,6 +128,33 @@ export default function ColumnsGrid() {
                   <TwitterIcon fontSize='large'/>
                   </a>
                   <a href="https://www.linkedin.com/in/siddhant-vardhan-singh/" target="_blank"
+                    className="linkedin sociala">
+                   <LinkedInIcon fontSize='large'/>
+                  </a>
+                </div>
+              </CardActions>
+            </Card>
+          </Grid>
+          <Grid item xs={32} md={8} sm={16}>
+            <Card sx={{ minWidth: 180 }} className="card4">
+              <CardContent>
+                {
+                  <img id="aboutprofile" src="tapesh.png" alt="profile" width={200} height={200} />}
+
+                <Typography sx={{ fontSize: 20 }} color="text.secondary" gutterBottom>
+                  Tapesh<br /> Malik
+                </Typography>
+              </CardContent>
+              <CardActions>
+                <div class="sociala-container">
+                  <a href="https://github.com" target="_blank"
+                    className="github sociala">
+                    <GitHubIcon fontSize='large'/>
+                  </a>
+                  <a href="https://twitter.com/malik_tapesh" target="_blank" className="twitter sociala">
+                  <TwitterIcon fontSize='large'/>
+                  </a>
+                  <a href="https://www.linkedin.com/in/tapesh-malik/" target="_blank"
                     className="linkedin sociala">
                    <LinkedInIcon fontSize='large'/>
                   </a>
