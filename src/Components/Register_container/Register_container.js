@@ -33,7 +33,7 @@ const RegisterContainer = () => {
     }
     return (
         <>
-            <form className="form-box" action="" onSubmit={handleSubmit}>
+            <form className="form-box" method='POST' onSubmit={handleSubmit}>
                 <div className='field1'>
                     <label htmlFor='name'>Full name</label>
                     <input type="text"
