@@ -1,5 +1,6 @@
-import React from 'react'
-import { useState } from 'react'
+import React from 'react';
+import { useState } from 'react';
+import "./Register_container.css";
 
 
 
@@ -32,8 +33,8 @@ const RegisterContainer = () => {
     }
     return (
         <>
-            <form action="" onSubmit={handleSubmit}>
-                <div>
+            <form className="form-box" action="" onSubmit={handleSubmit}>
+                <div className='field1'>
                     <label htmlFor='name'>Full name</label>
                     <input type="text"
                         value={userRegistration.name}
@@ -41,7 +42,7 @@ const RegisterContainer = () => {
                         name="name" id="name" />
                 </div>
 
-                <div>
+                <div className='field2'>
                     <label htmlFor='age'>age</label>
                     <input type="text"
                         value={userRegistration.age}
@@ -49,7 +50,7 @@ const RegisterContainer = () => {
                         name="age" id="age" />
                 </div>
 
-                <div>
+                <div className='field3'>
                     <label htmlFor='Gender'>Gender</label>
                     <input type="text"
                         value={userRegistration.Gender}
@@ -57,7 +58,7 @@ const RegisterContainer = () => {
                         name="Gender" id="Gender" />
                 </div>
 
-                <div>
+                <div className='field4'>
                     <label htmlFor='Email'>Email</label>
                     <input type="text"
                         value={userRegistration.Email}
@@ -65,7 +66,7 @@ const RegisterContainer = () => {
                         name="Email" id="Email" />
                 </div>
 
-                <div>
+                <div className='field5'>
                     <label htmlFor='password'>password</label>
                     <input type="text"
                         value={userRegistration.password}
@@ -73,7 +74,7 @@ const RegisterContainer = () => {
                         name="password" id="password" />
                 </div>
 
-                <button type='submit'>Register</button>
+                <button type='submit' className='submitbtn'>Register</button>
             </form>
 
             <div>

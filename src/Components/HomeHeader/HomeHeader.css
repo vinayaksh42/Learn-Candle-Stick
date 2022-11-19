@@ -1,41 +1,80 @@
-.cardContainer {
-    padding: 10px 40px;
-    height: 400px;
+.Main-text {
+    position: absolute;
+    width: 478px;
+    height: 75px;
+    left: 100px;
+    top: 270px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    letter-spacing: 0.005em;
+
+    color: #222222;
 }
 
-.card1:hover {
-    transform: scale(1.05);
+.Main-text-1 {
+
+    position: absolute;
+    width: 610px;
+    height: 111px;
+    left: 100px;
+    top: 375px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 154%;
+    /* or 37px */
+
+    letter-spacing: 0.005em;
+
+    color: rgba(34, 34, 34, 0.5);
+}
+
+.button-1 {
+
+    position: absolute;
+    width: 295px;
+    height: 60px;
+    left: 100px;
+    top: 526px;
+
+    background: #576CDB;
+    border-radius: 6px;
+}
+
+.button-text {
+    position: absolute;
+    width: 226px;
+    height: 36px;
+    left: 134px;
+    top: 538px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+
+    text-align: center;
+    letter-spacing: 0.005em;
+
+    color: #FFFFFF;
 
 }
 
-.card2:hover {
-    transform: scale(1.05);
+.image{
+    
+position: absolute;
+width: 507.08px;
+height: 403px;
+left: 832.67px;
+top: 227px;
 
-}
-
-.card3:hover {
-    transform: scale(1.05);
-
-}
-
-.card4:hover {
-    transform: scale(1.05);
-
-}
-
-.homeheaderContainer {
-    background-color: #f5f5f5;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-.boardContainer {
-    background-color: #f5f5f5;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }

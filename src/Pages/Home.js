@@ -9,9 +9,9 @@ function Home() {
       <div className="homeheaderContainer">
         <HomeHeader />
       </div>
-      <div className='boardContainer'>
+      {/* <div className='boardContainer'>
         <Board />
-      </div>
+      </div> */}
     </>
   );
 }

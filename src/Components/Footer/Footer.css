@@ -1,6 +1,11 @@
 .main-footer {
+  margin-top: auto;
     color: white;
     background-color: #222222;
+    position: fixed;;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
   }
   
   .list-items{
