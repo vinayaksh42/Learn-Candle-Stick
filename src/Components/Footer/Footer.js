@@ -6,30 +6,19 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import "./Footer.css";
 
- 
 function Footer() {
   return (
     <div className="main-footer">
       <div className="container">
         <div className="column">
-        <Grid
+        <Grid className="footer"
   container spacing={2}
   direction="row"
   justify="centre"
 >
         <Grid item xs={3.5} md={7.5} sm={4}>
         <div class="Learn Candlestick-logo">
-			
-			 <h1> <img id="learnstickswhite" src="learnsticks white.png" className="learnstick-whitelogo"></img>
-
-       </h1>
-             
-				</div>
-        </Grid>
-        <Grid item xs={2.5} md={1.5} sm={2}>
-          <div className="row">
           <ul className="Footer-links">
-            <h3>Getting Started</h3>
            
             <h5 className="list-items">
               <li>Features</li><br/>
