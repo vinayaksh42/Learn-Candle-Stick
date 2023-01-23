@@ -1,5 +1,6 @@
 # Learn-Candle-Stick
 - Project Lead - Vinayak Sharma
+- Project members - Priyanshu, Harsh, and Siddhant
 
 
 ### Pages to make
