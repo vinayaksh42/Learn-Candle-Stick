@@ -12,22 +12,18 @@ import MenuItem from "@mui/material/MenuItem";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
-const pages = ["Home","Learn","Quiz","About"];
+const pages = ["Home", "Learn", "Quiz", "About"];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
 
-
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  
 
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
- 
 
   return (
     <AppBar position="static">
@@ -64,20 +60,31 @@ const ResponsiveAppBar = () => {
             >
               {pages.map((page) => (
                 <Link to={"/" + page}>
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
-                </MenuItem>
+                  <MenuItem key={page} onClick={handleCloseNavMenu}>
+                    <Typography textAlign="center">{page}</Typography>
+                  </MenuItem>
                 </Link>
               ))}
             </Menu>
           </Box>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" ,justifyContent: "flex-end"} }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "none", md: "flex", justifyContent: "flex-end" },
+            }}
+          >
             <div class="Image">
-            <img id ="logoforcandle" src="logoblack.png" width={177} height={53} className="blacklogo"> 
-            </img>
+              <img
+                id="logoforcandle"
+                alt="logoforcandle"
+                src="logoblack.png"
+                width={177}
+                height={53}
+                className="blacklogo"
+              ></img>
             </div>
-          
+
             {pages.map((page) => (
               <Link to={"/" + page}>
                 <Button

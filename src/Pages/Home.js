@@ -1,7 +1,7 @@
 import React from "react";
 import HomeHeader from "../Components/HomeHeader/HomeHeader";
-import Board from '../Components/LeaderBoard/Board';
-import '../Components/LeaderBoard/Board.css';
+import Board from "../Components/LeaderBoard/Board";
+import "../Components/LeaderBoard/Board.css";
 
 function Home() {
   return (
@@ -9,7 +9,7 @@ function Home() {
       <div className="homeheaderContainer">
         <HomeHeader />
       </div>
-      <div className='boardContainer'>
+      <div className="boardContainer">
         <Board />
       </div>
     </>

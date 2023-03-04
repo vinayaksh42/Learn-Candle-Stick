@@ -1,8 +1,6 @@
 import React from "react";
 import "./LearnModule.css";
-import {data} from "./DataSet";
-
-
+import { data } from "./DataSet";
 
 export const LearnModule = () => {
   return (
@@ -14,12 +12,10 @@ export const LearnModule = () => {
         <img className="image_tag" alt="" src={data[1].image} />
       </div>
       <div className="Text_div">
-        <p >
-          {data[1].description}
-        </p>
+        <p>{data[1].description}</p>
       </div>
       <div className="image_stock_div">
-          <img className="image_stock" alt="" src={data[1].image1} />
+        <img className="image_stock" alt="" src={data[1].image1} />
       </div>
     </>
   );

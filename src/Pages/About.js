@@ -1,12 +1,12 @@
 import React from "react";
-import AboutAvatar from '../Components/AboutAvatar/AboutAvatar';
+import AboutAvatar from "../Components/AboutAvatar/AboutAvatar";
 
 function About() {
-    return (
-        <>
-        <AboutAvatar />
-        </>
-    );
+  return (
+    <>
+      <AboutAvatar />
+    </>
+  );
 }
 
 export default About;
