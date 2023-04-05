@@ -1,31 +1,31 @@
 #aboutprofile {
-    border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    border: 4px solid black;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  border: 4px solid black;
 }
 
 .sociala-container {
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
 a.sociala {
-    transition: transform 250ms;
-    display: inline-block;
-    padding: 3px;
+  transition: transform 250ms;
+  display: inline-block;
+  padding: 3px;
 }
 
 a.sociala:hover {
-    transform: translateY(-2px);
+  transform: translateY(-2px);
 }
 a.github {
-    color: #171515;
+  color: #171515;
 }
 
 a.twitter {
-    color: #49a1eb;
+  color: #49a1eb;
 }
 
 a.linkedin {
-    color:  #0077b5;
+  color: #0077b5;
 }

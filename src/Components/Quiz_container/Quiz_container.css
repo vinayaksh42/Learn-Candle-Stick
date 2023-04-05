@@ -1,41 +1,43 @@
-.question-section{
-  font-size: large;
-  font-weight: bold;
+.question-section {
+  display: flex;
+  margin-bottom: 50px;
 }
-img {
-  max-width: 100%;
-  max-height: 100%;
-  vertical-align: center;
- }
- .image {
-  padding: 10px;
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
- }
 
- button {
-  width: 200px;
-  font-size: 16px;
-  padding: 5px;
-  cursor: pointer;
-  margin: 0 auto;
+.image-section > img {
+  width: 480px;
+  height: 367px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+
+.image-section{
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.score-section {
+.question-options {
+  margin-top: 50px;
+  width: 610px;
+}
+
+.answer-section > button {
+  width: 510px;
+  height: 60px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-left: 50px;
+  font-size: 20px;
+}
+
+.question-text {
   font-size: 28px;
-  height: 100;
+  margin-bottom: 30px;
 }
 
-.app{
-  width: 450px;
-  min-height: 450px;
-  margin: 10px auto;
-
-}
-.answer-section{
-  display: flex;
-  gap: 20px;
+.question-count {
+  font-size: 30px;
+  margin-top: 20px;
 }
